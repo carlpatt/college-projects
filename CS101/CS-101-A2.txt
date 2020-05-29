@@ -1,0 +1,5 @@
+A2 question one
+https://liucs.net/cs101f16/heximage.html?p=16&w=16&h=8&r=1e7c30666066607c606030601e60&g=1e00300060006000600030001e00&b=007c00660066007c006000600060
+
+A2 question two
+https://liucs.net/cs101f16/heximage.html?p=16&w=16&h=16&r=f81f%2Ce067%2Cd87b%2Cb03d%2Ca79d%2C0fc0%2C0fcc%2C4fde%2C679e%2C600c%2C4000%2C8dd1%2Cdddd%2Cdffb%2Ceff7%2Cf00f&g=f81f%2Ce7e7%2Cdffb%2Cbffd%2Cbffd%2C7ffe%2C7ffe%2C7ffe%2C7ffe%2C7ffe%2C700e%2C8dd1%2Cdddd%2Cdffb%2Ceff7%2Cf00f&b=f81f%2Ce067%2Cd87b%2Cb03d%2Ca79d%2C0fc0%2C0fcc%2C4fde%2C679e%2C600c%2C4000%2C8dd1%2Cdddd%2Cdffb%2Ceff7%2Cf00f

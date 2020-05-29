@@ -1,0 +1,17 @@
+1) How many distinct characters did your message contain?
+    Ans: 16
+
+If we were using a fixed-width encoding, how many bits (per character) would you need to represent just those characters?
+    Ans: If we used 5 bit fixed encoding it would take 190 bits
+
+3) What is the most frequent character in your message, and how many times did it appear?
+    Ans: S, appeared 7 times
+
+4) How many bits are used to represent the most frequent character in your message?
+    Ans: 2
+    
+5) What is the most number of bits used to encode any character in your message?
+    Ans: 6
+    
+6) Use the tree you produced to encode the entire message you were given. How many bits are used, in total?]]
+    Ans: 146 bits

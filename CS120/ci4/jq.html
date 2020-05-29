@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery demo</title>
+    <link rel="stylesheet" href="jq.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jq.js"></script>
+  </head>
+  <body>
+    <h1>jQuery demo</h1>
+    <p>I like to visit:</p>
+    <ol>
+      <li>Norway</li>
+      <li>Japan</li>
+      <li class="finished">California</li>
+      <li>New Mexico</li>
+      <li>Montréal</li>
+    </ol>
+    <p><span id="destCount">1 destination</span> visited</p>
+    <button onclick="jsHighlight()">Highlight with pure JS</button>
+    <button onclick="jqHighlight()">Highlight with jQuery</button>
+    <button id="reset">Reset</button>
+  </body>
+</html>

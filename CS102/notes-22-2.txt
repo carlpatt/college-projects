@@ -1,0 +1,8 @@
+What is a function?
+
+A self contained program that achieves a specific result and returns to the calling line.
+The result replaces the function as your program executes.
+
+How to recognize a function?
+
+Name followed by a set of parenthesis, that may or may not include arguments.

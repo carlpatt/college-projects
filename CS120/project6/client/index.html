@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>REST Demo</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>People</h1>
+  <form onsubmit="addUser(event)">
+    <input type="text" id="username" name="name" value="" placeholder="Name">
+    <input type="text" id="job" name ="job" value="" placeholder="Job">
+    <input type="submit" value="Add">
+  </form>
+
+
+  <ol id="people">
+  </ol>
+</body>
+</html>

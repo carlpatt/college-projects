@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Vacation Spots</title>
+  <link rel="stylesheet" href="gmap.css">
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3cP-0elDvBi13uJBaXyrcam_qDkaSa7U&callback=initMap">
+  </script>
+  <script src="gmap.js"></script>
+</head>
+<body>
+  <h1>My favourite vacation spots</h1>
+  <div id="themap"></div>
+  <div class="navitem selected" id="marina" onclick="gotoMarina()">Errol Flyn Marina</div>
+  <div class="navitem" id="bond" onclick="gotoBond()">James Bond Beach</div>
+  <div class="navitem" id="boston" onclick="gotoBoston()">Boston Beach</div>
+  <div class="navitem" id="dunns" onclick="gotoDunns()">Dunns River Falls</div>
+  <br>
+  <p id="description"></p>
+  <img id="descimg" src="errolflynn.jpg" alt="Errol Flynn Marina">
+  </body>
+</html>

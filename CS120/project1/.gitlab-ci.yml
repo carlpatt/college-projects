@@ -1,0 +1,4 @@
+image: league/w3c:20190218
+build:
+  script:
+    - find -type f -regex '.*\.\(html\|css\)$' -print0 | xargs -0 --no-run-if-empty vnu --also-check-css --Werror

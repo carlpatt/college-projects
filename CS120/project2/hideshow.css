@@ -1,0 +1,20 @@
+body {
+  max-width: 600px;
+  margin: auto;
+}
+div.answer {
+  border: 2px solid blue;
+  background: #eef;
+  padding: 1ex 1em;
+}
+div.answer > * {
+  display: none;
+}
+
+div.answer > :first-child{
+  display: block;
+}
+
+.hideshow {
+  cursor: pointer;
+}

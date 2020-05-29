@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Color selector</title>
+  <link rel="stylesheet" href="colors.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="colors.js"></script>
+</head>
+<body>
+  <h1>Color selector</h1>
+
+  <div id="swatch"></div>
+
+  <input id="red" type="range" min="0" max="255" step="1">
+  <br>
+  <input id="green" type="range" min="0" max="255" step="1">
+  <br>
+  <input id="blue" type="range" min="0" max="255" step="1">
+  <div id="disprgb"></div>
+  <div id="palette">
+    <div style="background:#000000"></div>
+    <div style="background:#ffffff"></div>
+    <div style="background:#c25a5a"></div>
+    <div style="background:#c2c25a"></div>
+  </div>
+</html>
