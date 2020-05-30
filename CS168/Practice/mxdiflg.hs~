@@ -1,0 +1,7 @@
+mxdiflg :: [String] -> [String] -> Maybe Int
+mxdiflg s1 s2 = 
+  case s1 of
+    [] -> Nothing
+    [xs] -> case s2 of
+              [] -> Nothing
+              [xs] -> Just (abs(length(s1) - length(s2)))

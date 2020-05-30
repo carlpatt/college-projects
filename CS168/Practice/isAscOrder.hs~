@@ -1,0 +1,6 @@
+isAscOrder :: [Int] -> Bool
+isAscOrder [] = False
+isAscOrder (x:y:xs) = x < y && isAscOrder xs
+--  case x < y of
+--    False -> False
+--    True -> isAscOrder xs

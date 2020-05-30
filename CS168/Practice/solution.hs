@@ -1,0 +1,5 @@
+solution :: Integer -> Integer
+solution number = sum (y ++ x)
+  where
+    y = filter (\x -> x `mod` 5 == 0) [1..number-1]
+    x = filter (\x -> x `mod` 3 == 0) [1..number-1]

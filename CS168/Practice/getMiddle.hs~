@@ -1,0 +1,5 @@
+getMiddle :: String -> String
+getMiddle s 
+  | odd $ length s = s
+  | otherwise = "even"
+  
